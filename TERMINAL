@@ -1,0 +1,76 @@
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git config --global user.name "GUSTAVO MATOS"
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git config --global user.email "gustavomatos1108@gmail.com"
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git config --global user.name "GUSTAVO MATOS"
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git config --global user.email "gustavomatos1108@gmail.com"
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git add README.md
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git commit -m "concluindo minha tarefa"
+[main f75a615] concluindo minha tarefa
+ 1 file changed, 3 insertions(+)
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://gitlab.com/git-command-tests62035378/git-tests.git
+   9df8ee1..f75a615  main -> main
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Gustavo\OneDrive\Área de Trabalho\lab git part 1\git-tests> 
